@@ -6,6 +6,7 @@
 
 main {
   background: white;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .sfondo {
@@ -17,7 +18,7 @@ main {
 
 header {
  width: 100%;
- font-family: arial;
+ font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* barra navigazione superiore */
@@ -72,6 +73,7 @@ header {
   color: white;
   float: right;
   border: 1px solid #33475B;
+  border-radius: 10px;
   background-color: #FF7A59;
   margin-left: 10px;
   padding: 5px;
@@ -107,13 +109,13 @@ header {
 .logo {
   padding: 10px 0;
   float: left;
-  width: 40%;
+  width: 75%;
 }
 
 .menu {
   float: right;
   display: inline-block;
-  width: 60%;
+  width: 25%;
 }
 
 .menu::after {
@@ -124,7 +126,8 @@ header {
 
 .menu ul li {
   float: left;
-  padding: 15px 10px;
+  right: 0;
+  padding: 15px 0 15px 10px;
   list-style-type: none;
 }
 
@@ -141,9 +144,91 @@ header {
 
 /* parte principale */
 .principale {
-  height: 500px;
   width: 100%;
-  background: grey;
+  background: #F5F8FA;
+}
+
+/* primo blocco principale */
+.row_unica {
+  width: 100%;
+  background-image: url("immagini/sfondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row_unica .sfondo {
+  position: relative;
+  height: 400px;
+}
+
+.row_unica .sfondo .text {
+  position: absolute;
+  width: 25%;
+  color: white;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+  top: 25%;
+}
+
+.row_unica .sfondo .text h2 {
+  font-size: 30pt;
+}
+
+.row_unica .sfondo .text p {
+  font-size: 12pt;
+  padding-top: 5%;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.row_unica .sfondo a {
+  color: #33475B;
+  text-decoration: none;
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 75%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* secondo blocco principale */
+.colonna_unica {
+  height: 400px;
+  width: 70%;
+  margin: 0 auto;
+  background: #F5F8FA;
+  position: relative;
+}
+
+.colonna_unica .image {
+  height: 200px;
+  width: 100%;
+}
+
+.colonna_unica .image .cubo {
+  position: absolute;
+  height: 200px;
+  width: 250px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.colonna_unica .text {
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #334765;;
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+
+.colonna_unica .text h2 {
+  font-size: 30pt;
+}
+
+.colonna_unica .text p {
+  font-size: 12pt;
+  padding-top: 5%;
 }
 
 
