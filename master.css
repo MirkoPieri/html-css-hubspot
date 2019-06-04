@@ -24,6 +24,7 @@ header {
 /* barra navigazione superiore */
 .navup {
   background-color: #F5F8FA;
+  width: 100%;
 }
 
 .navup::after {
@@ -200,6 +201,7 @@ header {
 }
 
 .colonna_unica .image {
+  margin: 10px 0;
   height: 200px;
   width: 100%;
 }
