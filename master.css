@@ -56,6 +56,7 @@ header {
 
 .language:hover {
   cursor: pointer;
+  color: green;
 }
 
 /* bottone contatti */
@@ -66,6 +67,10 @@ header {
   color: #33475B;
   height: 40px;
   font-size: 10pt;
+}
+
+.contact:hover {
+  color: green;
 }
 
 /* bottone get HubSpot */
@@ -79,6 +84,10 @@ header {
   margin-left: 10px;
   padding: 5px;
   font-size: 10pt;
+}
+
+.navdx a:hover {
+  background-color: green;
 }
 
 /* bottone ricerca */
@@ -137,10 +146,18 @@ header {
   font-family: arial;
 }
 
+.menu ul li select:hover {
+  color: green;
+}
+
 .menu ul li a {
   text-decoration: none;
   color: #334765;
   font-family: arial;
+}
+
+.menu ul li a:hover {
+  color: green;
 }
 
 /* parte principale */
@@ -189,6 +206,11 @@ header {
   top: 75%;
   padding: 20px;
   border-radius: 10px;
+}
+
+.row_unica .sfondo a:hover {
+  background-color: orange;
+  border: 1px solid orange;
 }
 
 /* secondo blocco principale */
