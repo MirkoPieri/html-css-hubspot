@@ -34,6 +34,7 @@ header {
 }
 
 .navsx {
+  height: 30px;
   width: 42.5%;
   display: inline-block;
   margin: 10px 0;
@@ -52,11 +53,12 @@ header {
   background-color: #F5F8FA;
   padding-right: 10px;
   color: #33475B;
+  height: 30px;
 }
 
 .language:hover {
   cursor: pointer;
-  color: green;
+  background-color: orange;
 }
 
 /* bottone contatti */
@@ -67,6 +69,7 @@ header {
   color: #33475B;
   height: 40px;
   font-size: 10pt;
+  height: 30px;
 }
 
 .contact:hover {
