@@ -21,12 +21,79 @@ header {
  background-color: black;
 }
 
+/* barra navigazione superiore */
 .navup {
-  height: 150px;
-  width: 100%;
-  background-color: red;
+  background-color: #F5F8FA;
+
 }
 
+.navup::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navsx {
+  width: 42.5%;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.navdx {
+  float: right;
+  width: 42.5%;
+  margin: 10px 0;
+}
+
+/* bottone scegli lingua */
+.language {
+  border-style: none;
+  border-right: 1px solid #33475B;
+  background-color: #F5F8FA;
+  padding-right: 10px;
+  color: #33475B;
+}
+
+.language:hover {
+  cursor: pointer;
+}
+
+/* bottone contatti */
+
+.contact {
+  padding-left: 10px;
+  text-decoration: none;
+  color: #33475B;
+  height: 40px;
+}
+
+/* bottone get HubSpot */
+.navdx a {
+  text-decoration: none;
+  color: white;
+  float: right;
+  border: 1px solid #33475B;
+  background-color: #FF7A59;
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 10pt;
+}
+
+/* bottone ricerca */
+.ricerca {
+  float: right;
+  width: 120px;
+  border-style: none;
+  border-radius: 10px;
+  padding-left: 15px;
+  background-image: url("immagini/ricerca.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-top: 5px;
+}
+
+
+/* barra navigazione inferiore */
 .navtwo {
   height: 150px;
   width: 100%;
