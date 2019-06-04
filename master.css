@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background: white;
+}
+
+.sfondo {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* parte header */
+
+header {
+ height: 300px;
+ width: 100%;
+ background-color: black;
+}
+
+.navup {
+  height: 150px;
+  width: 100%;
+  background-color: red;
+}
+
+.navtwo {
+  height: 150px;
+  width: 100%;
+  background-color: green;
+}
+
+/* parte principale */
+.principale {
+  height: 500px;
+  width: 100%;
+  background: grey;
+}
+
+
+/* footer */
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+}
