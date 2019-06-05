@@ -5,8 +5,8 @@
 }
 
 main {
-  width: 100%;
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+  overflow-x: hidden;
 }
 
 .sfondo {
