@@ -65,7 +65,7 @@ header {
 /* bottone contatti */
 
 .contact {
-  padding-left: 10px;
+  /* padding-left: 10px; */
   text-decoration: none;
   color: #33475B;
   height: 40px;
@@ -669,19 +669,19 @@ footer {
   clear: both;
 }
 
-.contact {
+.footerpartecenter .contact {
   width: 100%;
   margin: 20px 0;
   margin-left: 75%;
 }
 
-.contact::after {
+.footerpartecenter .contact::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.contact a {
+.footerpartecenter .contact a {
   border: 1px solid white;
   background: white;
   color: #33475B;
@@ -691,7 +691,7 @@ footer {
   font-size: 15pt;
 }
 
-.contact a:hover {
+.footerpartecenter .contact a:hover {
   background-color: green;
   border: green;
   color: white;
