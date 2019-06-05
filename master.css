@@ -5,6 +5,7 @@
 }
 
 main {
+  width: 100vw;
   background: white;
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -608,7 +609,165 @@ header {
 }
 /* footer */
 footer {
-  height: 150px;
   width: 100%;
-  background-color: black;
+  background-color: #33475B;
+}
+
+/* parte superiore del footer */
+.footerpartesopra{
+  padding-top: 100px;
+  width: 100%;
+}
+
+.footerpartesopra::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footerpartesopra a {
+  color: #CBD6E2;
+  text-decoration: none;
+}
+
+.footerpartesopra p {
+  padding: 10px 0;
+}
+
+.footerpartesopra h3 {
+  padding-bottom: 10px;
+  color: white;
+}
+
+.float {
+  width: calc(100%/4);
+  float: left;
+}
+
+.footerpartesopra select {
+  border-style: hidden;
+  background: #33475B;
+  color: white;
+}
+
+.footerpartesopra a:hover {
+  color: #70D1DE;
+}
+
+.footerpartesopra select:hover {
+  color: #70D1DE;
+}
+
+/* parte centrale del footer */
+.footerpartecenter {
+  width: 100%;
+}
+
+.footerpartecenter::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact {
+  width: 100%;
+  margin: 20px 0;
+  margin-left: 75%;
+}
+
+.contact::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact a {
+  border: 1px solid white;
+  background: white;
+  color: #33475B;
+  padding: 10px;
+  float: left;
+  text-decoration: none;
+  font-size: 15pt;
+}
+
+.contact a:hover {
+  background-color: green;
+  border: green;
+  color: white;
+}
+
+.loghisocial {
+  float: left;
+  margin: 20px 0;
+  margin-left: 75%;
+}
+
+.loghisocial .sociallog:hover {
+  background: white;
+}
+
+.sociallog {
+  margin-right: 10px;
+}
+
+.lingue {
+  margin-top: 150px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+  border-bottom: solid 1px #CBD6E2;
+}
+
+.lingue a{
+  color: #CBD6E2;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 16pt;
+}
+
+.lingue a:hover {
+  color: #70D1DE;
+}
+
+/* parte inferiore del footer */
+
+.footerparteinferiore {
+ width: 100%;
+}
+
+.footerparteinferiore::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.divsx {
+  width: 50%;
+  float: left;
+  margin-top: 40px;
+}
+
+.footerparteinferiore p, a {
+  color: #CBD6E2;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+
+.divdx {
+  width: 50%;
+  float: left;
+  margin-top: 40px;
+  text-align: right;
+}
+
+.divdx a {
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 16pt;
+}
+
+.divdx a:hover {
+  color: #70D1DE;
 }
