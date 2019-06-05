@@ -222,7 +222,6 @@ header {
   width: 70%;
   margin: 0 auto;
   background: #F5F8FA;
-  position: relative;
 }
 
 .colonna_unica .image {
@@ -333,10 +332,9 @@ header {
 /* blocco a tre colonne */
 .trecolonne {
   margin-top: 30px;
-  padding: 20px;
   background-color: #F5F8FA;
-
 }
+
  .trecolonne:after {
    content: "";
    display: table;
@@ -409,6 +407,88 @@ header {
   background-color: green;
   border: green;
 }
+
+/* blocco unico */
+.tuttapag {
+  width: 100%;
+  background-color: #00B6AC;
+  margin-top: 80px;
+  padding-top: 80px;
+}
+
+.tuttapag .textcentre {
+  width: 40%;
+  text-align: center;
+  padding: 50px 0;
+  color: white;
+}
+
+.tuttapag .textcentre p {
+  padding-top: 20px;
+  font-size: 10pt;
+}
+
+.table {
+  background-color: #00B6AC;
+}
+
+.partesuperiore::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.parteinferiore::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.partesuperiore {
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.parteinferiore {
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.quadrato {
+  float: left;
+  width: 20%;
+  padding-top: 10px;
+}
+
+.uno {
+  margin-left: 10%;
+}
+
+.uno, .due, .tre {
+  border-right: 1px solid white;
+}
+
+.allicone {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.table h2 {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+.table p {
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
 /* footer */
 footer {
   height: 150px;
