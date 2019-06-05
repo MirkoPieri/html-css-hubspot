@@ -258,6 +258,113 @@ header {
   padding-top: 5%;
 }
 
+/* blocco a due colonne */
+
+.impa {
+  width: 70%;
+  margin: 0 auto;
+  background: #FFFFFF;
+}
+
+.duecolonne {
+  content: "";
+  display: table;
+  clear: both;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.duecolonne .colonnauno {
+  height: 250px;
+  width: 50%;
+  float: left;
+  position: relative;
+}
+
+.duecolonne .colonnadue {
+  width: 50%;
+  float: left;
+  padding: 20px 0;
+  color: #33475B;
+}
+
+.sizeimage {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.duecolonne .colonnauno a {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-decoration: none;
+  color: white;
+  border: 1px solid orange;
+  background: orange;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.duecolonne .colonnauno a:hover {
+  background-color: green;
+}
+
+.duecolonne .colonnadue p {
+  padding: 20px 0;
+  font-size: 10pt;
+  font-family: inherit;
+}
+
+.duecolonne .colonnadue ul {
+  padding-left: 20px;
+}
+
+.duecolonne .colonnadue li {
+  list-style-image: url("immagini/spunta.png");
+  float: left;
+  padding-top: 10px;
+  padding-right: 80px;
+}
+
+/* blocco a tre colonne */
+.trecolonne {
+  margin-top: 30px;
+  background-color: #F5F8FA;
+}
+ .trecolonne:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ .colonna1 {
+   margin-right: 5%;
+ }
+ .colonna2 {
+   margin-right: 5%;
+ }
+
+ .trecolonne .colonna1, .colonna2, .colonna3 {
+   padding: 20px;
+ }
+ 
+.size {
+  float: left;
+  width: calc(90% / 3);
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+.trecolonne  h4 {
+  text-align: center;
+}
+
+.trecolonne p {
+  padding-top: 20px;
+}
 
 /* footer */
 footer {
