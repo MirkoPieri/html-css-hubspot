@@ -310,6 +310,7 @@ header {
 
 .duecolonne .colonnauno a:hover {
   background-color: green;
+  border: green;
 }
 
 .duecolonne .colonnadue p {
@@ -332,7 +333,9 @@ header {
 /* blocco a tre colonne */
 .trecolonne {
   margin-top: 30px;
+  padding: 20px;
   background-color: #F5F8FA;
+
 }
  .trecolonne:after {
    content: "";
@@ -344,13 +347,13 @@ header {
    margin-right: 5%;
  }
  .colonna2 {
-   margin-right: 5%;
+   margin-right: 5%;;
  }
 
  .trecolonne .colonna1, .colonna2, .colonna3 {
    padding: 20px;
  }
- 
+
 .size {
   float: left;
   width: calc(90% / 3);
@@ -363,9 +366,49 @@ header {
 }
 
 .trecolonne p {
+  padding: 20px 0;
+  border-bottom: 1px solid #E5EAF0;
+  color: #506172;
+}
+
+.trecolonne  h5 {
+  text-align: center;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+.trecolonne ul {
   padding-top: 20px;
 }
 
+.trecolonne li {
+  list-style-image: url("immagini/spunta.png");
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.aref {
+  position: relative;
+  height: 100px;
+}
+
+.learn {
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border: 1px solid orange;
+  border-radius: 10px;
+  padding: 20px;
+  background: orange;
+}
+
+.learn:hover {
+  background-color: green;
+  border: green;
+}
 /* footer */
 footer {
   height: 150px;
