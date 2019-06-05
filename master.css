@@ -487,6 +487,11 @@ header {
 }
 
 /* blocco due colonne senza sfondo */
+
+.blocco2row {
+  margin-top: 200px;
+}
+
 .blocco2row::after {
   content: "";
   display: table;
@@ -502,16 +507,16 @@ header {
 
 .blocco2row .colonnasx h2 {
   text-align: center;
-  padding: 10px 40%;
+  padding: 10px 20%;
   color: #33475B;
-  font-size: 30pt;
+  font-size: 60pt;
 }
 
 .blocco2row .colonnasx p {
   text-align: center;
-  padding: 10px 35%;
+  padding: 10px 20%;
   color: #33475B;
-  font-size: 15pt;
+  font-size: 25pt;
 }
 
 .colonnarx {
@@ -528,6 +533,79 @@ header {
   padding: 10px 40px;
 }
 
+.colonnasenzasfondo {
+  margin-top: 300px;
+  color: #33475B;
+  padding-bottom: 200px;
+}
+.colonnasenzasfondo::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.partesx {
+  float: left;
+  width:65%;
+}
+
+.partesx h2 {
+  font-size: 30pt;
+  padding-right: 40%;
+}
+
+.partesx p {
+  font-size: 20pt;
+  padding-right: 40%;
+  padding-top: 30px;
+  padding-bottom: 30px
+}
+
+.testosx {
+  padding: 100px 0;
+}
+
+.profile {
+  height: 800px;
+  width: 500px;
+}
+.partedx {
+  width: 35%;
+  height: 500px;
+  float: right;
+  overflow: hidden;
+  border: 1px solid #F2547D;
+  background-color: #F2547D;
+  border-radius: 50%;
+}
+
+.imagedx {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #F2547D;
+  background-color: #F2547D;
+  border-radius: 50%;
+  padding: 0 20%;
+}
+
+.bothref a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid #FF7A59;
+  padding: 40px;
+  background: #FF7A59;
+  border-radius: 10px;
+}
+
+.bothref a:hover {
+  background: green;
+  border: green;
+}
+
+.bothref p {
+  margin-top: 30px;
+  font-size: 10pt;
+}
 /* footer */
 footer {
   height: 150px;
