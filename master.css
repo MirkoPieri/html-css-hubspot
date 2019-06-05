@@ -5,8 +5,7 @@
 }
 
 main {
-  width: 100vw;
-  background: white;
+  width: 100%;
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -23,6 +22,12 @@ header {
 }
 
 /* barra navigazione superiore */
+.navtitle::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .navup {
   background-color: #F5F8FA;
   width: 100%;
@@ -578,15 +583,12 @@ header {
   border: 1px solid #F2547D;
   background-color: #F2547D;
   border-radius: 50%;
+  border-style: hidden;
 }
 
 .imagedx {
   width: 100%;
   overflow: hidden;
-  border: 1px solid #F2547D;
-  background-color: #F2547D;
-  border-radius: 50%;
-  padding: 0 20%;
 }
 
 .bothref a {
