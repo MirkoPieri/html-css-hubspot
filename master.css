@@ -148,6 +148,7 @@ header {
   right: 0;
   padding: 15px 0 15px 10px;
   list-style-type: none;
+
 }
 
 .menu ul li select {
@@ -159,8 +160,9 @@ header {
 }
 
 .menu ul li a {
+  font-size: 10pt;
   text-decoration: none;
-  color: #334765;
+  color: black;
 }
 
 .menu ul li a:hover {
