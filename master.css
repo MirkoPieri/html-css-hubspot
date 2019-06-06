@@ -183,27 +183,25 @@ header {
   background-size: cover;
 }
 
-.row_unica .sfondo {
-  position: relative;
-  height: 400px;
-}
-
 .row_unica .sfondo .text {
-  position: absolute;
-  width: 25%;
+  padding: 50px 0;
+  width: 40%;
   color: white;
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
-  top: 25%;
 }
 
 .row_unica .sfondo .text h2 {
-  font-size: 30pt;
+  font-size: 60pt;
 }
 
 .row_unica .sfondo .text p {
-  font-size: 12pt;
+  font-size: 18pt;
   padding-top: 5%;
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.row_unica .bottom {
+  padding-bottom: 50px;
 }
 
 .row_unica .sfondo a {
@@ -211,8 +209,6 @@ header {
   text-decoration: none;
   border: 1px solid #FFFFFF;
   background-color: #FFFFFF;
-  position: absolute;
-  top: 75%;
   padding: 20px;
   border-radius: 10px;
 }
